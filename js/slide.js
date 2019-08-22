@@ -30,3 +30,36 @@ $('.js-popup-konsert').on('click', function () {
         }
     });
 });
+
+$('.js-popup-lanekassen').on('click', function () {
+    $.magnificPopup.open({
+        items: {
+            src: '<div class="white-popup"><h2>Lånekassen</h2> <strong>Lånekassen</strong> er //TODO: <br /><br /><strong>Lydnivå: </strong> Lavt. </div>',
+            type: 'inline'
+        }
+    });
+});
+$('.js-popup-strikk').on('click', function () {
+    $.magnificPopup.open({
+        items: {
+            src: '<div class="white-popup"><h2>Strikk & Drikk</h2> <strong>Strikk & Drikk</strong> //TODO: <br /><br /><strong>Lydnivå: </strong> Lavt</div>',
+            type: 'inline'
+        }
+    });
+});
+$('.js-popup-temafest').on('click', function () {
+    $.magnificPopup.open({
+        items: {
+            src: '<div class="white-popup"><h2>Temafest</h2> <strong>Temafester</strong>  //TODO: <br /><br /><strong>Lydnivå: </strong> Høyt. God gang fiskestang.</div>',
+            type: 'inline'
+        }
+    });
+});
+$('.js-popup-filmkveld').on('click', function () {
+    $.magnificPopup.open({
+        items: {
+            src: '<div class="white-popup"><h2>Filmkveld</h2> <strong>Filmkvelder</strong>  er //TODO: <br /><br /><strong>Lydnivå: </strong> Lavt, men ikke mulighet til å snakke under filmene.</div>',
+            type: 'inline'
+        }
+    });
+});
