@@ -113,7 +113,7 @@ for(let i = 0; i<spillTab.length;i++){
 		document.getElementById("seconds").innerHTML = seconds + " <small>seconds</small> ";
 
 
-    document.getElementById("datePlacer").innerHTML = dager[countDownDate.getDay()] + " " + countDownDate.getDate()+ ". " + maaneder[countDownDate.getMonth()];
+    document.getElementById("datePlacer").innerHTML = dager[countDownDate.getDay()] + " " + countDownDate.getDate()+ ". " + maaneder[countDownDate.getMonth() ];
 
 		// If the count down is finished, write some text
 		}, 1000);
