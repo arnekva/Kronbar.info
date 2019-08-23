@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/eiviwbc/kronbar.arnekvaleberg.com
+    - /bin/cp -R images $DEPLOYPATH
