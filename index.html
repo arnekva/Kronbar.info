@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="no">
   <head>
-    <title>.Info</title>
+    <title>Kronbar</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -73,14 +73,84 @@
     .datovelger:hover{
       color:white;
     }
+.kronbar-next-event{
 
+}
+.kronbar-next-event {
+  margin-top: -150px; }
+  @media (max-width: 767.98px) {
+    .kronbar-next-event {
+      margin-top: 0; } }
+  .kronbar-next-event .wrap {
+    background: #272e4f; }
+  .kronbar-next-event .container {
+    z-index: 2;
+    padding: 30px; }
+    @media (max-width: 767.98px) {
+      .kronbar-next-event .container {
+        padding: 30px 20px; } }
+  .kronbar-next-event .one-forth {
+    width: 35%; }
+    @media (min-width: 768px) {
+      .kronbar-next-event .one-forth {
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        padding-right: 35px; } }
+    @media (max-width: 767.98px) {
+      .kronbar-next-event .one-forth {
+        width: 100%; } }
+  .kronbar-next-event .one-half {
+    width: 65%; }
+    @media (max-width: 767.98px) {
+      .kronbar-next-event .one-half {
+        width: 100%;
+        display: block; } }
+    .kronbar-next-event .one-half .countdown-wrap {
+      width: calc(100% - 145px); }
+      @media (max-width: 767.98px) {
+        .kronbar-next-event .one-half .countdown-wrap {
+          width: 100%; } }
+    .kronbar-next-event .one-half .button {
+      width: 145px; }
+  .kronbar-next-event h3 {
+    color: #fff; }
+  .kronbar-next-event p {
+    color: rgba(255, 255, 255, 0.8); }
+  .kronbar-next-event .countdown {
+    padding: 0 30px; }
+    @media (max-width: 767.98px) {
+      .kronbar-next-event .countdown {
+        padding: 0;
+        margin-bottom: 30px; } }
+    .kronbar-next-event .countdown span {
+      display: inline-block;
+      text-align: center;
+      width: 25%;
+      font-size: 40px;
+      font-weight: 400; }
+    .kronbar-next-event .countdown small {
+      display: block;
+      font-size: 14px;
+      font-weight: 300;
+      font-family: "Work Sans", Arial, sans-serif; }
+
+      .kronbar-h{
+      /*  color: #5E001F !important; */
+      }
+      .icon span {
+        color: #5E001F !important;
+      }
+      .kb-logo-small{
+        height:50px;
+        float:left;
+        margin-right:10px;
+      }
     </style>
   </head>
   <body>
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><i class="flaticon-beer maico"></i> <span>Kronbar</span> <span>.info</span></a>
+	      <a class="navbar-brand" href="index.html"><img src="images/kb-logo-notext.png" class="kb-logo-small"><span>Kronbar</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Meny
 	      </button>
@@ -89,10 +159,12 @@
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="index.html" class="nav-link">Hjem</a></li>
 	          <li class="nav-item"><a href="om.html" class="nav-link">Om</a></li>
+            <li class="nav-item"><a href="media.html" class="nav-link">Media</a></li>
 	          <li class="nav-item"><a href="frivillig.html" class="nav-link">Bli Frivillig</a></li>
+            <li class="nav-item"><a href="leie.html" class="nav-link">Leie av Kronbar</a></li>
 	          <!-- <li class="nav-item"><a href="sermons.html" class="nav-link">Sermons</a></li>
 	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
-	          <li class="nav-item"><a href="#" class="nav-link">Kontakt</a></li>
+	          <li class="nav-item"><a href="kontakt.html" class="nav-link">Kontakt</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -104,14 +176,14 @@
 			<div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-10 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Din portal til <strong>Kronbar</strong></h1>
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><img src="images/kb-logo-notext.png" class="kb-logo-big"><br/>Din portal til <strong class="kronbar-heading">Kronbar</strong></h1>
             <!-- <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#" class="btn btn-primary btn-outline-white px-4 py-3">Test</a></p> -->
           </div>
         </div>
       </div>
 		</section>
 
-		<section class="ftco-bible-study">
+		<section class="kronbar-next-event">
 			<div class="container-wrap">
 				<div class="col-md-12 wrap">
 					<div class="container">
@@ -119,11 +191,9 @@
 							<div class="col-md-12 d-md-flex">
 								<div class="one-forth ftco-animate">
 									<h3>Neste<select id="datovelger" class="datovelger">
-                    <optgroup class="datovelger">
                     <option id="quiz" value="quiz">Quiz</option>
                     <option id="jam" value="jam">Jam</option>
                     <option id="spillkveld" value="spillkveld">Spillkveld</option>
-                  </optgroup>
                   </select></h3>
 									<p id="datePlacer"></p>
 								</div>
@@ -137,7 +207,7 @@
 										</p>
 									</div>
 									<div class="button">
-										<p><a href="https://www.facebook.com/events/2594884217198979/" class="btn btn-primary p-3">Arrangement på Facebook</a></p>
+									<!--	<p><a href="https://www.facebook.com/events/2594884217198979/" class="btn btn-primary p-3">Arrangement på Facebook</a></p> -->
 									</div>
 								</div>
 							</div>
@@ -256,12 +326,7 @@
               </div>
             </div>
           </div>
-
-
-
         </div>
-
-
       </div>
     </section>
     <section class="ftco-section-parallax">
@@ -413,6 +478,7 @@
 <div id="test-popup" class="white-popup mfp-with-anim mfp-hide">You may put any HTML here. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.</div>
 </section>
 
+<!--
     <section class="ftco-section-2 bg-light">
     	<div class="container-fluid">
     		<div class="row no-gutters d-flex">
@@ -425,7 +491,6 @@
     			</div>
     			<div class="col-md-6">
     				<div class="event-wrap">
-          <!--
               <div class="event-entry d-flex ftco-animate">
 	    					<div class="meta mr-4">
 	    						<p>
@@ -491,20 +556,14 @@
 	              </ul>
 	            </div>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/kronbarhvl"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://instagram.com/kronbar/"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  <!--Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |--> Written by a Høgskulen Student. Template is made by <a href="https://colorlib.com" target="_blank">Colorlib</a>.
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
- <a href="https://www.flaticon.com">Icons by flaticon.com</a>. <p style="font-style:italic;font-size:0.5rem;">Under <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>: <a data-file="015-cinema" href="http://www.freepik.com">Freepik</a>, <a data-file="004-musician" href="https://www.flaticon.com/authors/photo3idea-studio">photo3idea_studio</a>, <a data-file="005-checker-board" href="https://www.flaticon.com/authors/nikita-golubev">Nikita Golubev</a>, <a data-file="014-group" href="https://www.flaticon.com/authors/srip">srip</a>, <a data-file="011-cocktail" href="https://www.flaticon.com/authors/itim2101">itim2101</a>, <a data-file="012-account" href="https://www.flaticon.com/authors/eucalyp">Eucalyp</a>, <a data-file="013-sew" href="https://www.flaticon.com/authors/smashicons">Smashicons</a></p>
 
           </div>
         </div>
@@ -530,12 +589,10 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <!-- Magnific Popup core JS file -->
-  <script src="magnific-popup/jquery.magnific-popup.js"></script>
 <script src="js/popupcss.js"></script>
 
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <script src="js/jquery.mb.YTPlayer.min.js"></script>
   <script src="js/scrollax.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
