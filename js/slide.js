@@ -42,8 +42,7 @@ $('.js-popup-lanekassen').on('click', function () {
 $('.js-popup-strikk').on('click', function () {
     $.magnificPopup.open({
         items: {
-            src: '<div class="white-popup"><h2>Strikk & Drikk</h2> <strong>Strikk & Drikk</strong> er en koselig kveld der vi strikker til Frelsesarmeen og prematuravdelingen på Haukeland sykehus. Vi deler ut strikkepinner, garn og oppskrifter til alle som vil ha, men det er også fullt lov å ta med seg eget strikketøy om du skulle ønske det.
-<br /><br /><strong>Lydnivå: </strong> Lavt</div>',
+            src: '<div class="white-popup"><h2>Strikk & Drikk</h2> <strong>Strikk & Drikk</strong> er en koselig kveld der vi strikker til Frelsesarmeen og prematuravdelingen på Haukeland sykehus. Vi deler ut strikkepinner, garn og oppskrifter til alle som vil ha, men det er også fullt lov å ta med seg eget strikketøy om du skulle ønske det.<br /><br /><strong>Lydnivå: </strong> Lavt</div>',
             type: 'inline'
         }
     });
