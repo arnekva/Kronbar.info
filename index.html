@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/kronbarExtra.css">
+    <link rel="stylesheet" href="css/sec-css.css">
     <link rel="stylesheet" type="text/css" href="fonts/flaticon/flaticon.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -26,120 +27,7 @@
     //TODO: Insert favicon
     -->
     <style>
-    .aricon{
-      margin-left:-20px;
-    }
-    .navbar-brand{
-      padding-left:55px;
-    }
-    .flaticon-beer::before{
-      font-size:2rem;
-    }
-    .flaticon-beer{
-      margin-right:20px;
-    }
-    .ftco-section-parallax2, .parallax-img2{
-    background: rgb(148,0,0) !important;
-    background: linear-gradient(343deg, rgba(148,0,0,1) 2%, rgba(0,1,108,1) 62%) !important;
-    }
-    .white-popup {
-      position: relative;
-      background: #FFF;
-      padding: 20px;
-      width: auto;
-      max-width: 500px;
-      margin: 20px auto;
-    }
-    .moreinfop{
-      color: #ff5656;
-    }
-    .flaticon-child::before, .flaticon-face::before{
-      font-size:5rem;
-    }
-    .datovelger{
-      width:160px;
-      border-radius: 0;
-      margin-left:15px;
-      background: #272e4f;
-      color:white;
-      border:none;
-      text-align:right;
-      direction:ltr;
-    }
-    .datovelger:hover{
-      color:white;
-    }
-.kronbar-next-event{
 
-}
-.kronbar-next-event {
-  margin-top: -150px; }
-  @media (max-width: 767.98px) {
-    .kronbar-next-event {
-      margin-top: 0; } }
-  .kronbar-next-event .wrap {
-    background: #272e4f; }
-  .kronbar-next-event .container {
-    z-index: 2;
-    padding: 30px; }
-    @media (max-width: 767.98px) {
-      .kronbar-next-event .container {
-        padding: 30px 20px; } }
-  .kronbar-next-event .one-forth {
-    width: 35%; }
-    @media (min-width: 768px) {
-      .kronbar-next-event .one-forth {
-        border-right: 1px solid rgba(255, 255, 255, 0.1);
-        padding-right: 35px; } }
-    @media (max-width: 767.98px) {
-      .kronbar-next-event .one-forth {
-        width: 100%; } }
-  .kronbar-next-event .one-half {
-    width: 65%; }
-    @media (max-width: 767.98px) {
-      .kronbar-next-event .one-half {
-        width: 100%;
-        display: block; } }
-    .kronbar-next-event .one-half .countdown-wrap {
-      width: calc(100% - 145px); }
-      @media (max-width: 767.98px) {
-        .kronbar-next-event .one-half .countdown-wrap {
-          width: 100%; } }
-    .kronbar-next-event .one-half .button {
-      width: 145px; }
-  .kronbar-next-event h3 {
-    color: #fff; }
-  .kronbar-next-event p {
-    color: rgba(255, 255, 255, 0.8); }
-  .kronbar-next-event .countdown {
-    padding: 0 30px; }
-    @media (max-width: 767.98px) {
-      .kronbar-next-event .countdown {
-        padding: 0;
-        margin-bottom: 30px; } }
-    .kronbar-next-event .countdown span {
-      display: inline-block;
-      text-align: center;
-      width: 25%;
-      font-size: 40px;
-      font-weight: 400; }
-    .kronbar-next-event .countdown small {
-      display: block;
-      font-size: 14px;
-      font-weight: 300;
-      font-family: "Work Sans", Arial, sans-serif; }
-
-      .kronbar-h{
-      /*  color: #5E001F !important; */
-      }
-      .icon span {
-        color: #5E001F !important;
-      }
-      .kb-logo-small{
-        height:50px;
-        float:left;
-        margin-right:10px;
-      }
     </style>
   </head>
   <body>
@@ -150,7 +38,6 @@
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Meny
 	      </button>
-
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="index.html" class="nav-link">Hjem</a></li>
@@ -158,9 +45,8 @@
             <li class="nav-item"><a href="media.html" class="nav-link">Media</a></li>
 	          <li class="nav-item"><a href="frivillig.html" class="nav-link">Bli Frivillig</a></li>
             <li class="nav-item"><a href="leie.html" class="nav-link">Leie av Kronbar</a></li>
-              <li class="nav-item"><a href="meny.html" class="nav-link">Meny</a></li>
-	          <!-- <li class="nav-item"><a href="sermons.html" class="nav-link">Sermons</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
+            <li class="nav-item"><a href="meny.html" class="nav-link">Meny</a></li>
+            <li class="nav-item"><a href="quizresultater.html" class="nav-link">Quizresultater</a></li>
 	          <li class="nav-item"><a href="kontakt.html" class="nav-link">Kontakt</a></li>
 	        </ul>
 	      </div>
@@ -519,7 +405,7 @@ Eventuelt hent datoer fra studbergen i stedet for manuelt script
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
               <a class="navbar-brand" href="index.html"><i class="flaticon-beer maico"></i> <span>//TODO: insert logo</span> <span>Kronbar</span></a>
-              <p style="padding-left:25px;">Din guide til livet på Kronbar!</p>
+              <p style="padding-left:25px;"></p>
             </div>
           </div>
           <div class="col-md">

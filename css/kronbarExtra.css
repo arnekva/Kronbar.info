@@ -1,0 +1,114 @@
+.aricon{
+  margin-left:-20px;
+}
+.navbar-brand{
+  padding-left:55px;
+}
+.flaticon-beer::before{
+  font-size:2rem;
+}
+.flaticon-beer{
+  margin-right:20px;
+}
+.ftco-section-parallax2, .parallax-img2{
+background: rgb(148,0,0) !important;
+background: linear-gradient(343deg, rgba(148,0,0,1) 2%, rgba(0,1,108,1) 62%) !important;
+}
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+.moreinfop{
+  color: #ff5656;
+}
+.flaticon-child::before, .flaticon-face::before{
+  font-size:5rem;
+}
+.datovelger{
+  width:160px;
+  border-radius: 0;
+  margin-left:15px;
+  background: #272e4f;
+  color:white;
+  border:none;
+  text-align:right;
+  direction:ltr;
+}
+.datovelger:hover{
+  color:white;
+}
+.kronbar-next-event{
+
+}
+.kronbar-next-event {
+margin-top: -150px; }
+@media (max-width: 767.98px) {
+.kronbar-next-event {
+  margin-top: 0; } }
+.kronbar-next-event .wrap {
+background: #272e4f; }
+.kronbar-next-event .container {
+z-index: 2;
+padding: 30px; }
+@media (max-width: 767.98px) {
+  .kronbar-next-event .container {
+    padding: 30px 20px; } }
+.kronbar-next-event .one-forth {
+width: 35%; }
+@media (min-width: 768px) {
+  .kronbar-next-event .one-forth {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding-right: 35px; } }
+@media (max-width: 767.98px) {
+  .kronbar-next-event .one-forth {
+    width: 100%; } }
+.kronbar-next-event .one-half {
+width: 65%; }
+@media (max-width: 767.98px) {
+  .kronbar-next-event .one-half {
+    width: 100%;
+    display: block; } }
+.kronbar-next-event .one-half .countdown-wrap {
+  width: calc(100% - 145px); }
+  @media (max-width: 767.98px) {
+    .kronbar-next-event .one-half .countdown-wrap {
+      width: 100%; } }
+.kronbar-next-event .one-half .button {
+  width: 145px; }
+.kronbar-next-event h3 {
+color: #fff; }
+.kronbar-next-event p {
+color: rgba(255, 255, 255, 0.8); }
+.kronbar-next-event .countdown {
+padding: 0 30px; }
+@media (max-width: 767.98px) {
+  .kronbar-next-event .countdown {
+    padding: 0;
+    margin-bottom: 30px; } }
+.kronbar-next-event .countdown span {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  font-size: 40px;
+  font-weight: 400; }
+.kronbar-next-event .countdown small {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Work Sans", Arial, sans-serif; }
+
+  .kronbar-h{
+  /*  color: #5E001F !important; */
+  }
+  .icon span {
+    color: #5E001F !important;
+  }
+  .kb-logo-small{
+    height:50px;
+    float:left;
+    margin-right:10px;
+  }
